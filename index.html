@@ -3,19 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yu gi Oh</title>
+    <title>Yu-Gi-Oh</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     
+    <header class="cabecalho">
+        <h1 class="titulo">Clone Yu-Gi-Oh!</h1>
+    </header>
+
+    <main class="slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/img/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagem">
+            <li class="cartao fundo-1 selecionado">
+                <div class="carta-virada"></div>
+                <h2 class="nome">Cosmo Sentinel, o Guardião Galático</h2>
+                
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+                
+                <img src="./src/img/cosmos-sentinel.png" class="imagem-carta" alt="Cosmo Sentinel, o Guardião Galático">
+            
+                <div class="informacoes">
+                    <p class="descricao">Este importante guerreiro cibernético é a personificação da harmonia entre tecnologia avançada e energia cósmica. Empunhando o Centro Estrelar, Cosmo Sentinel pode manipular o espaço-tempo, anulando ataques e fortalecendo aliados.</p>
+                
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 2800</span>
+                        <span>DEF/ 2500</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta btn-avancar" id="btn-avancar">
+            <img src="./src/img/seta.png" alt="seta avançar">
+        </button>
+    </main>
 
 
 
-
-
-
-
-
-    
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
 
